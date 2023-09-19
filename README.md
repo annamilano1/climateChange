@@ -1,8 +1,23 @@
-# React + Vite
+# WARMING WARNING-WEBSITE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Educational website about global warming. Line charts with data of methane,temperature,n2o,artic area,co2 in our planes
 
-Currently, two official plugins are available:
+![website](src/images/photo-website.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Link :
+
+[warming-warning-website](https://teal-puffpuff-2eed12.netlify.app/)
+
+## Documentation API
+
+[APIs](https://global-warming.org)
+
+## React Libraries
+
+plx-react: for parallax effects
+
+react-apexcharts: for line charts
+
+## Languages and tools:
+
+REACT, JS, SASS, BOOTSTRAP 
