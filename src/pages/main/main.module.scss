@@ -1,0 +1,55 @@
+@use '../../mixin.scss' as mixin;
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;  
+    height: 200vh;
+    font-family: mixin.$font-style;
+  }
+
+.bearDiv h1 {
+    font-size: 50px;
+    top: 5%;
+    color: mixin.$dark-green;
+  }
+
+  .worldDiv {
+    font-size: 40px;
+    text-align: center;
+    position: fixed;
+    max-width: 900px;
+    min-width: 200px;
+    top: 25%;
+    left: 25%;
+    background: rgba(68, 255, 171, 0.53);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(68, 255, 171, 0.64);
+    padding: 5px;
+    z-index: 1;
+    color:mixin.$dark-green;
+  }
+  .button{
+    background-color: mixin.$dark-green;
+  }
+  
+  @media screen and (max-width: 1700px) {  
+    .worldDiv {
+      top: 20px;
+      max-width: 500px;
+    }
+   
+  }
+  @media screen and (max-width: 880px) { 
+    .worldDiv {
+      flex-wrap: nowrap;
+      font-size: mixin.$mobile-font-size;
+      top: 20px;
+      max-width: 50%;
+    }
+   
+  }
