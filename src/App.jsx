@@ -1,7 +1,7 @@
 import './App.scss'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Main from './pages/main/Main.jsx';
-import ChartPage from './pages/chart/ChartPage.jsx';
+import ChartPage from './pages/ChartPage/ChartPage.jsx';
 
 function App() {
  

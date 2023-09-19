@@ -1,0 +1,16 @@
+@use '../../mixin.scss' as mixin;
+.text {
+    border-left: 4px solid mixin.$dark-green;  
+    font-family: mixin.$font-style;
+    font-size: 25px;
+    color:mixin.$dark-green;
+  }
+  .icon {
+    width: 100px;
+  }
+  
+  @media screen and (max-width: 880px) {
+    .text {
+      font-size: mixin.$mobile-font-size;
+    }
+  }
